@@ -68,11 +68,10 @@
 	padding: 10px 10px 0 10px;
 }
 .acf-accordion-group.opened {
-	display: block;
-}
-
-.acf-tab_group-show.acf-accordion-group.opened {
     display: block;
+}
+.acf-tab_group-hide.acf-accordion-group.opened {
+    display: none;
 }
 .acf-tab_group-show.acf-accordion-group.opened .acf-tab_group-hide {
 	display: block;
